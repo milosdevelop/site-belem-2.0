@@ -54,6 +54,8 @@ main {
   background-color: white;
 }
 main img {
+  display: block;
+  max-width: 350px;
   
 }
 h2 {
