@@ -11,17 +11,19 @@
   --fontep: "Roboto", sans-serif;
 }
 body {
-  max-height: 100%;
+  min-height: 100vh;
   background-color: darkgrey;
   background-image: url(imagens/Bandeira_do_Pará.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  min-width: 100px;
 }
 header {
   font-family: var(--fonteh1);
   text-align: center;
+  min-height: 150px;
 }
 h1 {
   padding: 30px;
@@ -47,8 +49,8 @@ a:hover {
 }
 main {
   margin: auto;
-  min-width: 280px;
-  max-width: 800px;
+  min-width: 300px;
+  max-width: 1000px;
   background-color: white;
 }
 main img {
