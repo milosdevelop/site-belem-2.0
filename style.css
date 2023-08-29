@@ -17,6 +17,10 @@ header {
   font-family: var(--fonteh1);
   text-align: center;
 }
+header > h1 {
+  padding-top: 50px;
+  font-variant: small-caps;
+}
 h1 {
   padding: 30px;
   font-size: 3em;
@@ -42,8 +46,7 @@ a:hover {
 }
 main {
   margin: auto;
-  min-width: 320px;
-  max-width: 1000px;
+  max-width: 100vh;
   background-color: white;
   padding: 20px;
   line-height: 1.2em;
@@ -80,5 +83,6 @@ h2#bosque {
   padding: 10px;
   display: block;
   margin: auto;
+  width: 300px;
 }
 
