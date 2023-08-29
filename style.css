@@ -39,7 +39,6 @@ nav > a {
 }
 a:hover {
   text-decoration: underline;
-  background-color: grey;
 }
 main {
   margin: auto;
@@ -54,7 +53,6 @@ h2 {
   margin-left: 20px;
   text-align: center;
   background-color: darkgrey;
-  padding: 15px;
 }
 section {
   font-family: var(--fontep);
@@ -81,5 +79,6 @@ h2#bosque {
   padding: 15px;
   display: block;
   margin: auto;
+  width: 100;
 }
 
