@@ -64,10 +64,8 @@ h2 {
   width: 100%;
   color: #1e58d6;
   text-shadow: 10px black;
-  
-}
-section {
-  font-family: var(--fontep);
+  font-size: 2em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
   
 }
 section > p {
