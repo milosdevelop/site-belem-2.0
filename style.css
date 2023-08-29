@@ -47,7 +47,7 @@ a:hover {
   background-color: grey;
 }
 main {
-  width: 99.1vw;
+  max-width: 1080px;
   background-color: white;
   line-height: 1.2em;
   border-radius: 2px 2px 2px;
