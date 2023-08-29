@@ -35,8 +35,7 @@ nav {
   padding: 10px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
   background-color: #ff000079;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.493)
-  ;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.493);
 }
 nav > a {
   margin-left: 40px;
@@ -48,8 +47,9 @@ a:hover {
   background-color: grey;
 }
 main {
+  min-width: 320px;
+  max-width: 1000px;
   margin: auto;
-  max-width: 120vh;
   background-color: white;
   padding: 5px;
   line-height: 1.2em;
@@ -64,11 +64,9 @@ h2 {
   width: 96%;
   color: #1e58d6;
   text-shadow: 10px black;
-  
 }
 section {
   font-family: var(--fontep);
-  
 }
 section > p {
   font-family: var(--fontep);
@@ -93,9 +91,8 @@ h2#bosque {
   padding: 10px;
   display: block;
   margin: auto;
-  height: 300px;
+  width: 300px;
 }
 #fotoh1 {
   width: 200px;
 }
-
