@@ -11,11 +11,12 @@
   --fontep: "Roboto", sans-serif;
 }
 body {
-  background-color: red;
+  background-color: #ff0000;
 }
 header {
   font-family: var(--fonteh1);
   text-align: center;
+  background-color: white;
 }
 header > h1 {
   padding-top: 30px;
@@ -28,14 +29,15 @@ h1 {
 }
 h1 > a {
   text-decoration: none;
-  color: rgb(30, 88, 214);
+  color: #1e58d6;
 }
 nav {
   padding: 10px;
-  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.425);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
   margin-bottom: 10px;
-  background-color: rgba(128, 128, 128, 0.733);
-  margin: px;
+  background-color: #ff000079;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.493)
+  ;
 }
 nav > a {
   margin-left: 40px;
@@ -44,38 +46,45 @@ nav > a {
 }
 a:hover {
   text-decoration: underline;
+  background-color: grey;
 }
 main {
   margin: auto;
   max-width: 100vh;
   background-color: white;
-  padding: 20px;
   line-height: 1.2em;
+  border-radius: 2px 2px 2px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
 }
 h2 {
   margin-bottom: 10px;
-  margin-left: 10px;
   text-align: center;
-  background-color: darkgrey;
+  background-color: #ff000079;
   padding: 15px;
+  width: 100%;
+  color: #1e58d6;
+  text-shadow: 10px black;
   
 }
 section {
   font-family: var(--fontep);
+  
 }
 section > p {
   font-family: var(--fontep);
-  padding: 10px;
   text-align: justify;
+  text-indent: 2em;
+  line-height: 1.3em;
+  padding: 15px;
 }
 
 footer {
   text-align: center;
-  background-color: darkgray;
+  background-color: #ff000059;
 }
 footer > a {
   text-decoration: none;
-  color: white;
+  color: #1e58d6;
 }
 
 h2#bosque {
@@ -85,6 +94,9 @@ h2#bosque {
   padding: 10px;
   display: block;
   margin: auto;
-  width: 300px;
+  height: 300px;
+}
+#fotoh1 {
+  width: 200px;
 }
 
