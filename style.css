@@ -47,7 +47,7 @@ a:hover {
   background-color: grey;
 }
 main {
-  min-width: 280px;
+  min-width: 350px;
   max-width: 960px;
   margin: auto;
   background-color: white;
