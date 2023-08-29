@@ -53,6 +53,7 @@ h2 {
   margin-left: 20px;
   text-align: center;
   background-color: darkgrey;
+  padding: 15px;
 }
 section {
   font-family: var(--fontep);
@@ -76,9 +77,8 @@ h2#bosque {
   margin-top: 30px;
 }
 .img {
-  padding: 15px;
+  padding: 10px;
   display: block;
   margin: auto;
-  width: 100;
 }
 
