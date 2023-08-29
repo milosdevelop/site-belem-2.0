@@ -47,18 +47,18 @@ a:hover {
   background-color: grey;
 }
 main {
-  max-width: 1080px;
+  margin: auto;
   background-color: white;
   line-height: 1.2em;
   border-radius: 2px 2px 2px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+  max-width: 1080px;
 }
 h2 {
   margin-bottom: 10px;
   text-align: center;
   background-color: #ff000079;
   padding: 15px;
-  width: 96%;
   color: #1e58d6;
   text-shadow: 10px black;
 }
