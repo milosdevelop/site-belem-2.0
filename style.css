@@ -47,8 +47,7 @@ a:hover {
   background-color: grey;
 }
 main {
-  min-width: 350px;
-  max-width: 1080px;
+  width: 98vw;
   margin: auto;
   background-color: white;
   padding: 5px;
