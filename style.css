@@ -73,6 +73,7 @@ section > p {
   text-align: justify;
   text-indent: 2em;
   line-height: 1.3em;
+  padding-bottom: 15px;
 }
 
 footer {
