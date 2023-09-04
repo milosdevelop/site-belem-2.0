@@ -11,7 +11,11 @@
   --fontep: "Roboto", sans-serif;
 }
 body {
-  background-color: #ff0000;
+  background-image: url(imagens/Bandeira_do_Pará.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 header {
   font-family: var(--fonteh1);
